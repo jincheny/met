@@ -3,6 +3,7 @@
 mock-express-template
 
 ## 介绍
+
 基于 express-generator 二次开发的前端 mock 框架。
 
 ## 安装使用
@@ -30,6 +31,18 @@ pnpm run dev
 ```
 
 浏览器访问 http://127.0.0.1:3000
+
+## 部署
+
+- pm2 部署
+
+```bash
+pm2 start ./bin/www
+```
+
+- 访问
+
+浏览器访问 http://ip:3000
 
 ## 工具集
 
